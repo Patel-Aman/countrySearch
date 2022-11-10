@@ -6,7 +6,7 @@ let countries;
 
 create = (country) => {
     let countryCard = document.createElement("div");
-    countryCard.classList.add("country-card", "col-12", "col-md-6", "d-flex", "flex-column");
+    countryCard.classList.add("country-card", "col-10", "col-md-5", "d-flex", "flex-column");
 
     let countryFlag = document.createElement("img");
     countryFlag.src = country["flag"];
